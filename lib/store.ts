@@ -5,7 +5,7 @@ import { Column } from "@/components/kanban/board-column";
 import { UniqueIdentifier } from "@dnd-kit/core";
 
 export type Status = "TODO" | "IN_PROGRESS" | "DONE";
-
+ 
 const defaultCols = [
   {
     id: "TODO" as const,
