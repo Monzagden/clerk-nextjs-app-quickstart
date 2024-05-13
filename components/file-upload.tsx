@@ -3,11 +3,11 @@ import { OurFileRouter } from "@/app/api/uploadthing/core";
 import { UploadDropzone } from "@uploadthing/react";
 import { Trash } from "lucide-react";
 import Image from "next/image";
-import { UploadFileResponse } from "../node_modules/uploadthing/dist/client";
+//import { UploadFileResponse } from "../node_modules/uploadthing/dist/client";
 import { IMG_MAX_LIMIT } from "./forms/product-form";
 import { Button } from "./ui/button";
 import { useToast } from "./ui/use-toast";
-
+/*
 interface ImageUploadProps {
   onChange?: any;
   onRemove: (value: UploadFileResponse[]) => void;
@@ -61,4 +61,4 @@ export default function FileUpload({
     
     </div>
   );
-}
+}*/
