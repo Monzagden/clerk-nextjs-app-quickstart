@@ -33,7 +33,7 @@ export const authOptions: NextAuthOptions = {
         }
 
         const existingUser = await db.user.findUnique({
-          where: { email: credentials?.email }
+          where: { email: credentials?.email } 
         });
 
         if (!existingUser) {
